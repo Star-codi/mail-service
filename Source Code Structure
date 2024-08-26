@@ -1,0 +1,12 @@
+mail-service/
+├── src/
+│   ├── EmailService.ts         # Main service class implementing the email sending logic
+│   ├── MockProviders.ts        # Mock email providers for testing
+├── tests/
+│   ├── EmailService.test.ts    # Unit tests for the EmailService class
+├── .eslintrc.json              # ESLint configuration file for consistent code style
+├── .gitignore                  # Ignored files and directories (e.g., node_modules, dist)
+├── jest.config.js              # Configuration for the Jest testing framework
+├── package.json                # Project dependencies and scripts
+├── README.md                   # Documentation with setup instructions and assumptions
+└── tsconfig.json               # TypeScript configuration file
