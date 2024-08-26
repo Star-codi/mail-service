@@ -54,3 +54,10 @@ This project implements a resilient email sending service in TypeScript/JavaScri
 - `tests/`: Contains the unit tests for the service.
 - `README.md`: Project documentation.
 
+
+##  Future Improvements
+
+- Advanced Queueing : Implement a more robust queue management system for handling email requests.
+- Distributed Rate Limiting : Implement a distributed rate-limiting mechanism to handle scaling across multiple instances.
+- Enhanced Circuit Breaker : Extend the circuit breaker pattern with more advanced failure detection and recovery strategies.
+
